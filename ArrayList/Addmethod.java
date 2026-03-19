@@ -1,12 +1,13 @@
 import java.util.ArrayList;
-class Addmethod{
+class Addmethod {
+
     public static void main(String[] args) {
-        ArrayList<String> cars = new ArrayList<>();
-        cars.add("Audi");
-        cars.add("BMW");
-        cars.add("Benz");
-        cars.add("Ford");
-        
-        System.out.print(cars);
-    }    
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    cars.add("Volvo");
+    System.out.print(cars);
+    }
+    
 }
